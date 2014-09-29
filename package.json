@@ -1,0 +1,19 @@
+{
+  "name": "promise-once",
+  "version": "1.0.0",
+  "description": "Wrap a promise constructor to return the same promise everytime",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vvo/promise-once.git"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "Vincent Voyer <vincent@zeroload.net>",
+  "license": "ISC",
+  "devDependencies": {
+    "es6-promise": "^1.0.0",
+    "tape": "^3.0.0"
+  }
+}
