@@ -1,6 +1,6 @@
 {
   "name": "promise-once",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Wrap a promise constructor to return the same promise everytime",
   "main": "index.js",
   "repository": {
