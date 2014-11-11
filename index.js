@@ -6,7 +6,7 @@ function promiseOnce(fn) {
 
   return function() {
     return resolved || (resolved = new PromiseConstructor(fn));
-  }
+  };
 }
 
-promiseOnce.Promise = global.Promise;
+promiseOnce.Promise = require('promise');

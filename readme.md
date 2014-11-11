@@ -29,7 +29,7 @@ function increment() {
 }
 ```
 
-Default is to use `global.Promise` but you can pass your shim along:
+Default is to use [promise](https://www.npmjs.org/package/promise) but you can pass your shim along:
 
 ```js
 var promiseOnce = require('promise-once');

@@ -1,6 +1,5 @@
 var test = require('tape');
 var promiseOnce = require('./');
-promiseOnce.Promise = require('es6-promise').Promise;
 
 test('simple', function(t) {
   t.plan(1);
@@ -15,7 +14,7 @@ test('simple', function(t) {
       t.equal(i, 1);
     });
 
-  function increment(resolve, reject) {
+  function increment(resolve/*, reject*/) {
     i++;
     process.nextTick(function() {
       resolve(i);
